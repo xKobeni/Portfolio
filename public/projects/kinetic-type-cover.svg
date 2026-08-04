@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#12141A"/>
+      <stop offset="100%" stop-color="#3355FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <g transform="skewY(-6) translate(150, 150)">
+    <text x="0" y="100" fill="#EFF1EC" font-family="serif" font-weight="900" font-size="120">KINETIC</text>
+    <text x="0" y="220" fill="#8FA0FF" font-family="serif" font-style="italic" font-size="120">TYPE</text>
+  </g>
+  <circle cx="950" cy="200" r="80" fill="#3355FF" opacity="0.6"/>
+</svg>

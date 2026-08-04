@@ -1,0 +1,210 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d111a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#111827;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3355FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8FA0FF;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cardGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a2035;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#161d2e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="sparkGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#3355FF;stop-opacity:0" />
+      <stop offset="100%" style="stop-color:#3355FF;stop-opacity:0.3" />
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00d4aa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00a87d;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="cardShadow">
+      <feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#3355FF" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="url(#bgGrad)"/>
+
+  <!-- Subtle grid lines -->
+  <g opacity="0.04" stroke="#8FA0FF" stroke-width="1">
+    <line x1="0" y1="100" x2="1200" y2="100"/>
+    <line x1="0" y1="200" x2="1200" y2="200"/>
+    <line x1="0" y1="300" x2="1200" y2="300"/>
+    <line x1="0" y1="400" x2="1200" y2="400"/>
+    <line x1="0" y1="500" x2="1200" y2="500"/>
+    <line x1="0" y1="600" x2="1200" y2="600"/>
+    <line x1="100" y1="0" x2="100" y2="675"/>
+    <line x1="200" y1="0" x2="200" y2="675"/>
+    <line x1="300" y1="0" x2="300" y2="675"/>
+    <line x1="400" y1="0" x2="400" y2="675"/>
+    <line x1="500" y1="0" x2="500" y2="675"/>
+    <line x1="600" y1="0" x2="600" y2="675"/>
+    <line x1="700" y1="0" x2="700" y2="675"/>
+    <line x1="800" y1="0" x2="800" y2="675"/>
+    <line x1="900" y1="0" x2="900" y2="675"/>
+    <line x1="1000" y1="0" x2="1000" y2="675"/>
+    <line x1="1100" y1="0" x2="1100" y2="675"/>
+  </g>
+
+  <!-- Top nav bar -->
+  <rect x="48" y="36" width="1104" height="52" rx="10" fill="#141c2e" opacity="0.9"/>
+  <circle cx="80" cy="62" r="10" fill="url(#blueGrad)"/>
+  <text x="100" y="67" font-family="'SF Pro Display', -apple-system, sans-serif" font-size="14" font-weight="700" fill="#EFF1EC" letter-spacing="2">NOVA</text>
+  <rect x="200" y="49" width="70" height="26" rx="6" fill="#3355FF" fill-opacity="0.2"/>
+  <text x="235" y="66" font-family="sans-serif" font-size="11" fill="#8FA0FF" text-anchor="middle">Dashboard</text>
+  <text x="290" y="66" font-family="sans-serif" font-size="11" fill="#6B6F68">Analytics</text>
+  <text x="355" y="66" font-family="sans-serif" font-size="11" fill="#6B6F68">Portfolio</text>
+  <text x="420" y="66" font-family="sans-serif" font-size="11" fill="#6B6F68">Markets</text>
+  <circle cx="1090" cy="62" r="14" fill="#1e2a42"/>
+  <circle cx="1090" cy="58" r="5" fill="#8FA0FF"/>
+  <circle cx="1090" cy="71" r="7" fill="#1e2a42"/>
+  <circle cx="1130" cy="62" r="14" fill="#1e2a42"/>
+  <text x="1130" y="67" font-family="sans-serif" font-size="11" fill="#EFF1EC" text-anchor="middle">JA</text>
+
+  <!-- Section label -->
+  <text x="48" y="126" font-family="sans-serif" font-size="11" fill="#6B6F68" letter-spacing="2">OVERVIEW</text>
+  <text x="48" y="148" font-family="'SF Pro Display', -apple-system, sans-serif" font-size="22" font-weight="600" fill="#EFF1EC">Financial Summary</text>
+  <text x="1060" y="148" font-family="sans-serif" font-size="12" fill="#8FA0FF">Aug 2026 ▾</text>
+
+  <!-- === CARD 1: Total Balance === -->
+  <rect x="48" y="168" width="346" height="220" rx="16" fill="url(#cardGrad1)" filter="url(#cardShadow)"/>
+  <rect x="48" y="168" width="346" height="220" rx="16" fill="none" stroke="#3355FF" stroke-width="1" opacity="0.3"/>
+  <!-- Card top accent line -->
+  <rect x="48" y="168" width="346" height="3" rx="2" fill="url(#blueGrad)"/>
+  <!-- Icon badge -->
+  <rect x="68" y="192" width="32" height="32" rx="8" fill="#3355FF" fill-opacity="0.2"/>
+  <text x="84" y="213" font-family="sans-serif" font-size="14" fill="#8FA0FF" text-anchor="middle">$</text>
+  <text x="108" y="208" font-family="sans-serif" font-size="11" fill="#6B6F68">Total Balance</text>
+  <text x="68" y="250" font-family="'SF Pro Display', -apple-system, sans-serif" font-size="36" font-weight="700" fill="#EFF1EC">$84,291</text>
+  <text x="68" y="272" font-family="sans-serif" font-size="11" fill="#00d4aa">.49</text>
+  <rect x="68" y="285" width="60" height="20" rx="4" fill="#00d4aa" fill-opacity="0.15"/>
+  <text x="98" y="299" font-family="sans-serif" font-size="10" fill="#00d4aa" text-anchor="middle">▲ +3.24%</text>
+  <text x="160" y="299" font-family="sans-serif" font-size="10" fill="#6B6F68">vs last month</text>
+  <!-- Mini sparkline -->
+  <polyline points="68,355 100,345 130,350 160,330 190,338 220,320 260,325 300,310 340,295 370,290" fill="none" stroke="#3355FF" stroke-width="2" opacity="0.8" filter="url(#glow)"/>
+  <polygon points="68,365 100,355 130,360 160,340 190,348 220,330 260,335 300,320 340,305 370,300 370,370 68,370" fill="url(#sparkGrad)" opacity="0.5"/>
+
+  <!-- === CARD 2: Monthly Revenue === -->
+  <rect x="426" y="168" width="346" height="220" rx="16" fill="url(#cardGrad1)" filter="url(#cardShadow)"/>
+  <rect x="426" y="168" width="346" height="220" rx="16" fill="none" stroke="#8FA0FF" stroke-width="1" opacity="0.2"/>
+  <rect x="426" y="168" width="346" height="3" rx="2" fill="url(#blueGrad)"/>
+  <rect x="446" y="192" width="32" height="32" rx="8" fill="#8FA0FF" fill-opacity="0.15"/>
+  <text x="462" y="213" font-family="sans-serif" font-size="14" fill="#8FA0FF" text-anchor="middle">↑</text>
+  <text x="486" y="208" font-family="sans-serif" font-size="11" fill="#6B6F68">Monthly Revenue</text>
+  <text x="446" y="250" font-family="'SF Pro Display', -apple-system, sans-serif" font-size="36" font-weight="700" fill="#EFF1EC">$12,840</text>
+  <rect x="446" y="270" width="72" height="20" rx="4" fill="#3355FF" fill-opacity="0.15"/>
+  <text x="482" y="284" font-family="sans-serif" font-size="10" fill="#8FA0FF" text-anchor="middle">▲ +8.1%</text>
+  <!-- Bar chart -->
+  <rect x="446" y="330" width="24" height="40" rx="3" fill="#3355FF" opacity="0.4"/>
+  <rect x="478" y="320" width="24" height="50" rx="3" fill="#3355FF" opacity="0.5"/>
+  <rect x="510" y="310" width="24" height="60" rx="3" fill="#3355FF" opacity="0.6"/>
+  <rect x="542" y="325" width="24" height="45" rx="3" fill="#3355FF" opacity="0.5"/>
+  <rect x="574" y="305" width="24" height="65" rx="3" fill="#3355FF" opacity="0.7"/>
+  <rect x="606" y="295" width="24" height="75" rx="3" fill="url(#blueGrad)"/>
+  <rect x="638" y="315" width="24" height="55" rx="3" fill="#3355FF" opacity="0.5"/>
+  <rect x="670" y="300" width="24" height="70" rx="3" fill="#3355FF" opacity="0.6"/>
+  <rect x="702" y="285" width="24" height="85" rx="3" fill="url(#blueGrad)" filter="url(#glow)"/>
+  <rect x="734" y="308" width="24" height="62" rx="3" fill="#3355FF" opacity="0.4"/>
+
+  <!-- === CARD 3: Expenses === -->
+  <rect x="804" y="168" width="346" height="220" rx="16" fill="url(#cardGrad1)" filter="url(#cardShadow)"/>
+  <rect x="804" y="168" width="346" height="220" rx="16" fill="none" stroke="#8FA0FF" stroke-width="1" opacity="0.2"/>
+  <rect x="804" y="168" width="346" height="3" rx="2" fill="url(#blueGrad)"/>
+  <rect x="824" y="192" width="32" height="32" rx="8" fill="#ff5577" fill-opacity="0.15"/>
+  <text x="840" y="213" font-family="sans-serif" font-size="14" fill="#ff8899" text-anchor="middle">↓</text>
+  <text x="864" y="208" font-family="sans-serif" font-size="11" fill="#6B6F68">Total Expenses</text>
+  <text x="824" y="250" font-family="'SF Pro Display', -apple-system, sans-serif" font-size="36" font-weight="700" fill="#EFF1EC">$5,620</text>
+  <rect x="824" y="270" width="72" height="20" rx="4" fill="#ff5577" fill-opacity="0.12"/>
+  <text x="860" y="284" font-family="sans-serif" font-size="10" fill="#ff8899" text-anchor="middle">▼ -1.4%</text>
+  <!-- Donut chart -->
+  <circle cx="968" cy="305" r="55" fill="none" stroke="#1e2a42" stroke-width="20"/>
+  <circle cx="968" cy="305" r="55" fill="none" stroke="#3355FF" stroke-width="20" stroke-dasharray="173 173" stroke-dashoffset="0" stroke-linecap="round" transform="rotate(-90 968 305)"/>
+  <circle cx="968" cy="305" r="55" fill="none" stroke="#8FA0FF" stroke-width="20" stroke-dasharray="80 266" stroke-dashoffset="-173" stroke-linecap="round" transform="rotate(-90 968 305)"/>
+  <circle cx="968" cy="305" r="55" fill="none" stroke="#D8DEFF" stroke-width="20" stroke-dasharray="40 306" stroke-dashoffset="-253" stroke-linecap="round" transform="rotate(-90 968 305)"/>
+  <text x="968" y="301" font-family="sans-serif" font-size="10" fill="#6B6F68" text-anchor="middle">spent</text>
+  <text x="968" y="317" font-family="'SF Pro Display', -apple-system, sans-serif" font-size="14" font-weight="700" fill="#EFF1EC" text-anchor="middle">62%</text>
+
+  <!-- Bottom row smaller cards -->
+  <!-- Card 4: Transactions -->
+  <rect x="48" y="418" width="224" height="130" rx="14" fill="url(#cardGrad1)"/>
+  <rect x="48" y="418" width="224" height="130" rx="14" fill="none" stroke="#3355FF" stroke-width="1" opacity="0.2"/>
+  <text x="68" y="444" font-family="sans-serif" font-size="10" fill="#6B6F68" letter-spacing="1">TRANSACTIONS</text>
+  <text x="68" y="474" font-family="'SF Pro Display', -apple-system, sans-serif" font-size="28" font-weight="700" fill="#EFF1EC">1,492</text>
+  <text x="68" y="493" font-family="sans-serif" font-size="10" fill="#8FA0FF">this month</text>
+  <!-- mini dots -->
+  <circle cx="68" cy="516" r="4" fill="#3355FF"/>
+  <circle cx="82" cy="520" r="4" fill="#3355FF" opacity="0.6"/>
+  <circle cx="96" cy="512" r="4" fill="#3355FF" opacity="0.8"/>
+  <circle cx="110" cy="518" r="4" fill="#8FA0FF" opacity="0.7"/>
+  <circle cx="124" cy="510" r="4" fill="#3355FF"/>
+  <circle cx="138" cy="514" r="4" fill="#3355FF" opacity="0.5"/>
+  <circle cx="152" cy="508" r="4" fill="#8FA0FF" opacity="0.9"/>
+  <circle cx="166" cy="512" r="4" fill="#3355FF" opacity="0.6"/>
+
+  <!-- Card 5: Savings Rate -->
+  <rect x="288" y="418" width="224" height="130" rx="14" fill="url(#cardGrad1)"/>
+  <rect x="288" y="418" width="224" height="130" rx="14" fill="none" stroke="#3355FF" stroke-width="1" opacity="0.2"/>
+  <text x="308" y="444" font-family="sans-serif" font-size="10" fill="#6B6F68" letter-spacing="1">SAVINGS RATE</text>
+  <text x="308" y="474" font-family="'SF Pro Display', -apple-system, sans-serif" font-size="28" font-weight="700" fill="#EFF1EC">34.2<tspan font-size="14" fill="#6B6F68">%</tspan></text>
+  <rect x="308" y="498" width="184" height="6" rx="3" fill="#1e2a42"/>
+  <rect x="308" y="498" width="126" height="6" rx="3" fill="url(#blueGrad)" filter="url(#glow)"/>
+  <text x="308" y="530" font-family="sans-serif" font-size="10" fill="#6B6F68">Target: 40%</text>
+  <text x="462" y="530" font-family="sans-serif" font-size="10" fill="#8FA0FF" text-anchor="end">68% there</text>
+
+  <!-- Card 6: Net Worth -->
+  <rect x="528" y="418" width="224" height="130" rx="14" fill="url(#cardGrad1)"/>
+  <rect x="528" y="418" width="224" height="130" rx="14" fill="none" stroke="#3355FF" stroke-width="1" opacity="0.2"/>
+  <text x="548" y="444" font-family="sans-serif" font-size="10" fill="#6B6F68" letter-spacing="1">NET WORTH</text>
+  <text x="548" y="474" font-family="'SF Pro Display', -apple-system, sans-serif" font-size="28" font-weight="700" fill="#EFF1EC">$246k</text>
+  <rect x="548" y="490" width="44" height="18" rx="4" fill="#00d4aa" fill-opacity="0.15"/>
+  <text x="570" y="503" font-family="sans-serif" font-size="9" fill="#00d4aa" text-anchor="middle">▲ 12.3%</text>
+  <!-- Micro line -->
+  <polyline points="548,530 568,524 588,526 608,518 628,522 648,510 668,515 688,505 708,508 728,498" fill="none" stroke="#00d4aa" stroke-width="1.5" opacity="0.8"/>
+
+  <!-- Card 7: Portfolio -->
+  <rect x="768" y="418" width="224" height="130" rx="14" fill="url(#cardGrad1)"/>
+  <rect x="768" y="418" width="224" height="130" rx="14" fill="none" stroke="#3355FF" stroke-width="1" opacity="0.2"/>
+  <text x="788" y="444" font-family="sans-serif" font-size="10" fill="#6B6F68" letter-spacing="1">PORTFOLIO</text>
+  <text x="788" y="474" font-family="'SF Pro Display', -apple-system, sans-serif" font-size="28" font-weight="700" fill="#EFF1EC">$38,400</text>
+  <!-- Portfolio breakdown dots -->
+  <rect x="788" y="492" width="184" height="10" rx="5" fill="#1e2a42"/>
+  <rect x="788" y="492" width="88" height="10" rx="5" fill="#3355FF"/>
+  <rect x="876" y="492" width="44" height="10" rx="0" fill="#8FA0FF"/>
+  <rect x="920" y="492" width="30" height="10" rx="0" fill="#D8DEFF"/>
+  <rect x="950" y="492" width="22" height="10" rx-right="5" fill="#6B6F68" rx="5"/>
+  <text x="788" y="518" font-family="sans-serif" font-size="9" fill="#6B6F68">Stocks</text>
+  <text x="878" y="518" font-family="sans-serif" font-size="9" fill="#6B6F68">Bonds</text>
+  <text x="928" y="518" font-family="sans-serif" font-size="9" fill="#6B6F68">ETF</text>
+  <text x="958" y="518" font-family="sans-serif" font-size="9" fill="#6B6F68">Cash</text>
+  <text x="788" y="536" font-family="sans-serif" font-size="9" fill="#8FA0FF">48%</text>
+  <text x="878" y="536" font-family="sans-serif" font-size="9" fill="#8FA0FF">24%</text>
+  <text x="928" y="536" font-family="sans-serif" font-size="9" fill="#8FA0FF">16%</text>
+  <text x="958" y="536" font-family="sans-serif" font-size="9" fill="#8FA0FF">12%</text>
+
+  <!-- Card 8: Alerts -->
+  <rect x="1008" y="418" width="140" height="130" rx="14" fill="url(#cardGrad1)"/>
+  <rect x="1008" y="418" width="140" height="130" rx="14" fill="none" stroke="#3355FF" stroke-width="1" opacity="0.2"/>
+  <text x="1028" y="444" font-family="sans-serif" font-size="10" fill="#6B6F68" letter-spacing="1">ALERTS</text>
+  <circle cx="1078" cy="475" r="24" fill="#3355FF" fill-opacity="0.15"/>
+  <text x="1078" y="482" font-family="'SF Pro Display', -apple-system, sans-serif" font-size="22" font-weight="700" fill="#3355FF" text-anchor="middle">3</text>
+  <text x="1028" y="518" font-family="sans-serif" font-size="9" fill="#6B6F68">active alerts</text>
+  <rect x="1028" y="528" width="100" height="3" rx="2" fill="#3355FF" fill-opacity="0.3"/>
+  <rect x="1028" y="528" width="30" height="3" rx="2" fill="#3355FF"/>
+
+  <!-- Bottom label -->
+  <text x="600" y="628" font-family="sans-serif" font-size="10" fill="#6B6F68" text-anchor="middle" letter-spacing="3">NOVA · FINANCIAL DASHBOARD · v2.4</text>
+
+  <!-- Decorative corner glow -->
+  <radialGradient id="cornerGlow" cx="0%" cy="0%" r="50%">
+    <stop offset="0%" style="stop-color:#3355FF;stop-opacity:0.1"/>
+    <stop offset="100%" style="stop-color:#3355FF;stop-opacity:0"/>
+  </radialGradient>
+  <rect width="400" height="400" fill="url(#cornerGlow)"/>
+</svg>

@@ -1,0 +1,112 @@
+[
+  {
+    "id": "nova",
+    "index": "01",
+    "title": "Nova",
+    "category": "Index 02.1 — Product",
+    "role": "Lead Product Designer",
+    "year": "2025",
+    "stack": "Figma, Framer, React",
+    "client": "Nova Financial",
+    "tags": "Product — 2025",
+    "desc": "Rebuilding a fintech dashboard around trust and speed.",
+    "coverGradient": "linear-gradient(135deg,#3355FF,#8FA0FF)",
+    "coverImage": "/projects/nova-cover.svg",
+    "stripGradient": "linear-gradient(100deg,#12141A,#3355FF)",
+    "stripImage": "/projects/nova-cover.svg",
+    "overview": "Nova's dashboard had grown one feature at a time for three years, and it showed. Every number competed for the same attention, so nothing actually got read. The brief was to rebuild the core dashboard around a single question: what does this person need to decide right now?",
+    "approach": [
+      "We cut the dashboard's default view from eleven modules to three, and let people opt back in to the rest. Motion carries the hierarchy — the primary number settles first, everything secondary arrives a beat later and quieter.",
+      "Every state — loading, empty, error — was designed as its own screen, not a spinner bolted onto the happy path."
+    ],
+    "outcome": "Time-to-first-decision dropped by 40% in testing, and support tickets tagged \"confusing dashboard\" fell by more than half in the first quarter after launch."
+  },
+  {
+    "id": "drift",
+    "index": "02",
+    "title": "Drift",
+    "category": "Index 02.2 — Brand",
+    "role": "Brand & Identity Design",
+    "year": "2024",
+    "stack": "Illustrator, Figma",
+    "client": "Drift Travel Co.",
+    "tags": "Brand — 2024",
+    "desc": "An identity system for a slow-travel platform.",
+    "coverGradient": "linear-gradient(135deg,#12141A,#6B6F68)",
+    "coverImage": "/projects/drift-cover.svg",
+    "stripGradient": "linear-gradient(100deg,#6B6F68,#12141A)",
+    "stripImage": "/projects/drift-cover.svg",
+    "overview": "Drift books slow, unhurried trips — trains instead of flights, weeks instead of long weekends. The identity needed to feel like the opposite of a booking app: patient, tactile, a little analog.",
+    "approach": [
+      "The wordmark is set slightly loose, like it hasn't decided to arrive yet. A single custom grain texture appears everywhere — on the site, on printed tickets, in the app splash — as a consistent tactile signature.",
+      "Color shifts by season rather than staying fixed, so the brand itself feels like it's moving through a year."
+    ],
+    "outcome": "Drift's rebrand shipped alongside a 22% lift in newsletter-to-booking conversion, and the grain motif has since been picked up by three of their regional partners."
+  },
+  {
+    "id": "fieldnote",
+    "index": "03",
+    "title": "Fieldnote",
+    "category": "Index 02.3 — Product",
+    "role": "Senior Product Designer",
+    "year": "2024",
+    "stack": "Figma, SwiftUI",
+    "client": "Fieldnote Inc.",
+    "tags": "Product — 2024",
+    "desc": "A journaling app that writes back.",
+    "coverGradient": "linear-gradient(135deg,#D8DEFF,#3355FF)",
+    "coverImage": "/projects/fieldnote-cover.svg",
+    "stripGradient": "linear-gradient(100deg,#3355FF,#D8DEFF)",
+    "stripImage": "/projects/fieldnote-cover.svg",
+    "overview": "Fieldnote is a journaling app that occasionally writes back — short, gentle prompts generated from your own past entries. The design challenge was making that feel considerate, not surveillant.",
+    "approach": [
+      "Every prompt is visually distinct from the user's own writing — different weight, different color, always dismissible in one tap. Nothing appears without an obvious, low-friction way to close it.",
+      "We built a full motion spec for \"arriving\" content so nothing ever just pops in — it settles, the way a thought does."
+    ],
+    "outcome": "Daily active writing sessions grew 31% after launch, and qualitative interviews showed the prompts were consistently described as \"thoughtful\" rather than \"creepy\" — the bar we'd set internally."
+  },
+  {
+    "id": "echo-room",
+    "index": "04",
+    "title": "Echo Room",
+    "category": "Index 02.4 — Brand",
+    "role": "Art Direction",
+    "year": "2023",
+    "stack": "Illustrator, After Effects",
+    "client": "Echo Room",
+    "tags": "Brand — 2023",
+    "desc": "Spatial audio brand for a live-music startup.",
+    "coverGradient": "linear-gradient(135deg,#6B6F68,#12141A)",
+    "coverImage": "/projects/echo-room-cover.svg",
+    "stripGradient": "linear-gradient(100deg,#12141A,#6B6F68)",
+    "stripImage": "/projects/echo-room-cover.svg",
+    "overview": "Echo Room streams spatial-audio live sets. The identity needed to suggest sound moving through space without leaning on any of the genre's usual waveform clichés.",
+    "approach": [
+      "Instead of waveforms, the mark is built from concentric rings that distort based on the loudness of whatever's actually playing — a real, live piece of the brand rather than a static logo.",
+      "Typography stays completely still by contrast, so the one moving element always reads as intentional."
+    ],
+    "outcome": "The live mark became the most-screenshotted brand asset across the platform's first season, according to Echo Room's own social monitoring."
+  },
+  {
+    "id": "kinetic-type",
+    "index": "05",
+    "title": "Kinetic Type",
+    "category": "Index 02.5 — Web / Experiment",
+    "role": "Design & Code",
+    "year": "2023",
+    "stack": "JS, WebGL, Variable Fonts",
+    "client": "Self-directed",
+    "tags": "Web — 2023",
+    "desc": "An open-source variable-type playground.",
+    "coverGradient": "linear-gradient(135deg,#3355FF,#12141A)",
+    "coverImage": "/projects/kinetic-type-cover.svg",
+    "stripGradient": "linear-gradient(100deg,#3355FF,#8FA0FF)",
+    "stripImage": "/projects/kinetic-type-cover.svg",
+    "overview": "An open-source playground for pairing variable fonts with real physics — type that responds to gravity, cursor velocity, and scroll, instead of pre-baked keyframes.",
+    "approach": [
+      "Every letterform's weight and width axis is tied to a small physics simulation rather than a timeline, so no two sessions ever animate quite the same way.",
+      "Released as a small open-source library so other designers could drop the same behavior into their own type."
+    ],
+    "outcome": "Crossed 4,000 GitHub stars in its first year and became the starting point for the kinetic headline used across this site."
+  }
+]
