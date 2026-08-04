@@ -21,8 +21,8 @@ export const MenuOverlay: React.FC = () => {
           <button onClick={() => handleNav('/about', 'About')} data-cursor>
             About
           </button>
-          <button onClick={() => handleNav('/lab', 'Lab')} data-cursor>
-            Lab
+          <button onClick={() => handleNav('/lab', 'R&D')} data-cursor>
+            R&D
           </button>
           <button onClick={() => handleNav('/writing', 'Writing')} data-cursor>
             Writing
@@ -32,8 +32,8 @@ export const MenuOverlay: React.FC = () => {
           </button>
         </nav>
         <div className="menu-meta">
-          <span>Manila, PH — Remote</span>
-          <span>Available Q1 2026</span>
+          <span>Batangas, PH — Remote</span>
+          <span>Available for work</span>
         </div>
       </div>
     </div>

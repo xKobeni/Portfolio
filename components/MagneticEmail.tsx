@@ -37,12 +37,12 @@ export const MagneticEmail: React.FC = () => {
   return (
     <a
       ref={ref}
-      href="mailto:hello@alexreyes.design"
+      href="mailto:johnadrian.perce@gmail.com"
       className="contact-email reveal"
       id="magneticEmail"
       data-cursor
     >
-      hello@alexreyes.design
+      johnadrian.perce@gmail.com
     </a>
   );
 };

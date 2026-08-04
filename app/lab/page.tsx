@@ -1,77 +1,10 @@
 'use client';
 
-import React, { useRef, useEffect, useState } from 'react';
+import React, { useRef, useEffect } from 'react';
 import { usePageTransition } from '@/components/PageTransitionContext';
+import { getAllExperiments, ExperimentItem } from '@/lib/experiments';
 
-interface Experiment {
-  id: string;
-  index: string;
-  title: string;
-  desc: string;
-  tag: string;
-  year: string;
-  gradient: string;
-  link?: string;
-}
-
-const EXPERIMENTS: Experiment[] = [
-  {
-    id: 'gravity-type',
-    index: '01',
-    title: 'Gravity Type',
-    desc: 'Letterforms responding to scroll velocity and gravity via a spring physics simulation.',
-    tag: 'WebGL — Motion',
-    year: '2023',
-    gradient: 'linear-gradient(135deg, #3355FF, #12141A)',
-  },
-  {
-    id: 'cursor-trail',
-    index: '02',
-    title: 'Cursor Trail',
-    desc: 'A trail of shrinking circles following the mouse, each with independent decay and opacity.',
-    tag: 'Canvas — Interaction',
-    year: '2024',
-    gradient: 'linear-gradient(135deg, #12141A, #8FA0FF)',
-  },
-  {
-    id: 'generative-grid',
-    index: '03',
-    title: 'Generative Grid',
-    desc: 'A noise-driven grid that shifts cell colors and sizes in real time using simplex noise.',
-    tag: 'Generative — Canvas',
-    year: '2024',
-    gradient: 'linear-gradient(135deg, #D8DEFF, #3355FF)',
-  },
-  {
-    id: 'scroll-morph',
-    index: '04',
-    title: 'Scroll Morph',
-    desc: 'SVG path morphing driven by scroll position — two shapes blending into each other.',
-    tag: 'SVG — Scroll',
-    year: '2023',
-    gradient: 'linear-gradient(135deg, #6B6F68, #12141A)',
-  },
-  {
-    id: 'variable-poster',
-    index: '05',
-    title: 'Variable Font Poster',
-    desc: 'An interactive poster where font weight, width, and slant are controlled by mouse position.',
-    tag: 'Variable Fonts — Interaction',
-    year: '2024',
-    gradient: 'linear-gradient(135deg, #3355FF, #D8DEFF)',
-  },
-  {
-    id: 'audio-visualizer',
-    index: '06',
-    title: 'Audio Visualizer',
-    desc: 'Concentric rings that expand and contract to the amplitude of live microphone input.',
-    tag: 'Web Audio — Canvas',
-    year: '2023',
-    gradient: 'linear-gradient(135deg, #12141A, #3355FF)',
-  },
-];
-
-const ExperimentCard: React.FC<{ exp: Experiment }> = ({ exp }) => {
+const ExperimentCard: React.FC<{ exp: ExperimentItem }> = ({ exp }) => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
   useEffect(() => {
@@ -90,7 +23,6 @@ const ExperimentCard: React.FC<{ exp: Experiment }> = ({ exp }) => {
       t += 0.015;
       ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-      // Animated dots pattern
       const cols = 8;
       const rows = 6;
       const cellW = canvas.width / cols;
@@ -140,6 +72,7 @@ const ExperimentCard: React.FC<{ exp: Experiment }> = ({ exp }) => {
 
 export default function LabPage() {
   const { navigate } = usePageTransition();
+  const experiments = getAllExperiments();
 
   return (
     <div className="view active" id="view-lab">
@@ -154,18 +87,18 @@ export default function LabPage() {
         </button>
 
         <div style={{ paddingTop: '24px' }}>
-          <div className="eyebrow">Index 05 — Lab</div>
+          <div className="eyebrow">Index 05 — R&amp;D</div>
           <h1 className="project-title" style={{ marginTop: '0', fontSize: 'clamp(44px, 7vw, 90px)' }}>
-            Experiments &<br />
-            <em style={{ color: 'var(--accent)', fontStyle: 'italic' }}>Explorations</em>
+            Research &<br />
+            <em style={{ color: 'var(--accent)', fontStyle: 'italic' }}>Development</em>
           </h1>
           <p style={{ marginTop: '24px', maxWidth: '480px', color: 'var(--muted)', fontSize: '16px', lineHeight: '1.7' }}>
-            Smaller work that didn&apos;t need a brief — experiments in motion, generative systems, and interaction that exist mostly to answer the question &quot;what if?&quot;
+            Where ideas become prototypes. A collection of AI experiments, productivity tools, games, machine learning projects, and developer utilities built to explore new technologies and refine engineering skills.
           </p>
         </div>
 
         <div className="experiment-grid">
-          {EXPERIMENTS.map((exp) => (
+          {experiments.map((exp) => (
             <ExperimentCard key={exp.id} exp={exp} />
           ))}
         </div>
@@ -178,7 +111,7 @@ export default function LabPage() {
         </div>
 
         <footer>
-          <span>© 2026 Alex Reyes</span>
+          <span>© 2026 Adrian Perce</span>
           <span>Index 05</span>
         </footer>
       </div>

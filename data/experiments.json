@@ -1,0 +1,110 @@
+[
+  {
+    "id": "elevenlabs-assistant",
+    "index": "01",
+    "title": "AI Voice Assistant",
+    "desc": "A Python voice assistant powered by ElevenLabs with tool calling for web search, notes, Spotify, YouTube, email, and desktop media controls.",
+    "tag": "AI — Python",
+    "year": "2026",
+    "gradient": "linear-gradient(135deg,#3355FF,#12141A)"
+  },
+  {
+    "id": "bahala-na-bot",
+    "index": "02",
+    "title": "Bahala-na-Bot",
+    "desc": "An AI decision-making assistant that helps users overcome indecision through guided suggestions and conversational reasoning.",
+    "tag": "AI — Assistant",
+    "year": "2026",
+    "gradient": "linear-gradient(135deg,#12141A,#6B6F68)"
+  },
+  {
+    "id": "aika-ascend",
+    "index": "03",
+    "title": "Aika Ascend",
+    "desc": "A gamified fitness companion featuring daily quests, achievements, activity tracking, and local-first progress management.",
+    "tag": "Flutter — Fitness",
+    "year": "2026",
+    "gradient": "linear-gradient(135deg,#6B6F68,#3355FF)"
+  },
+  {
+    "id": "aika-prompta",
+    "index": "04",
+    "title": "Aika Prompta",
+    "desc": "A minimalist platform where AI artists share, discover, and remix prompts alongside high-quality generated images and videos.",
+    "tag": "Web — Creative AI",
+    "year": "2026",
+    "gradient": "linear-gradient(135deg,#12141A,#8FA0FF)"
+  },
+  {
+    "id": "aika-apiverse",
+    "index": "05",
+    "title": "AIKA APIVerse",
+    "desc": "A searchable directory for discovering, comparing, and testing free public APIs in seconds.",
+    "tag": "Developer Tools",
+    "year": "2026",
+    "gradient": "linear-gradient(135deg,#3355FF,#8FA0FF)"
+  },
+  {
+    "id": "aika-cinek",
+    "index": "06",
+    "title": "Aika CineK",
+    "desc": "A cinematic discovery platform for Korean dramas and films with watchlists and beautifully designed browsing experiences.",
+    "tag": "Entertainment",
+    "year": "2026",
+    "gradient": "linear-gradient(135deg,#12141A,#3355FF)"
+  },
+  {
+    "id": "aika-keys",
+    "index": "07",
+    "title": "Aika Keys",
+    "desc": "An interactive MIDI piano visualizer with synchronized sheet music, real-time feedback, and customizable sound presets.",
+    "tag": "Music Tech",
+    "year": "2026",
+    "gradient": "linear-gradient(135deg,#3355FF,#D8DEFF)"
+  },
+  {
+    "id": "ukay-prototype",
+    "index": "08",
+    "title": "Ukay",
+    "desc": "A PSX-inspired first-person horror prototype built in Godot featuring memory resonance mechanics and modular level systems.",
+    "tag": "Game Dev",
+    "year": "2026",
+    "gradient": "linear-gradient(135deg,#12141A,#4A4A4A)"
+  },
+  {
+    "id": "focus-blocker",
+    "index": "09",
+    "title": "AI Focus Blocker",
+    "desc": "A Chrome extension that blocks distracting websites while synchronizing with an AI-powered productivity workflow.",
+    "tag": "Chrome Extension",
+    "year": "2025",
+    "gradient": "linear-gradient(135deg,#3355FF,#6C8DFF)"
+  },
+  {
+    "id": "job-acceptance-predictor",
+    "index": "10",
+    "title": "Job Acceptance Predictor",
+    "desc": "A machine learning application that predicts hiring outcomes from candidate profiles and visualizes influential features.",
+    "tag": "Machine Learning",
+    "year": "2025",
+    "gradient": "linear-gradient(135deg,#3355FF,#12141A)"
+  },
+  {
+    "id": "nutrimate",
+    "index": "11",
+    "title": "NutriMate",
+    "desc": "A Flask-powered meal planner that combines nutrition tracking with machine learning to generate personalized meal recommendations.",
+    "tag": "ML — Health",
+    "year": "2025",
+    "gradient": "linear-gradient(135deg,#6B6F68,#3355FF)"
+  },
+  {
+    "id": "ojt-tracker-lab",
+    "index": "12",
+    "title": "OJT Tracker",
+    "desc": "A streamlined internship tracker for organizing applications, documenting daily progress, and monitoring OJT requirements.",
+    "tag": "Next.js",
+    "year": "2025",
+    "gradient": "linear-gradient(135deg,#D8DEFF,#3355FF)"
+  }
+]

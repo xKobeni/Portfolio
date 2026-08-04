@@ -23,7 +23,7 @@ export default function HomePage() {
         <WorkList />
 
         <div className="teaser reveal">
-          <p>Ten years at the edge of brand and product — the long version lives on its own page.</p>
+          <p>Fullstack development from concept to deployment; the long version lives on its own page.</p>
           <button
             className="back-link"
             data-cursor
@@ -39,17 +39,14 @@ export default function HomePage() {
           <div className="eyebrow reveal">Index 04 — Contact</div>
           <MagneticEmail />
           <div className="contact-row reveal">
-            <a href="#" data-cursor>
-              → Instagram
+            <a href="https://github.com/xKobeni" target="_blank" rel="noopener noreferrer" data-cursor>
+              → GitHub
             </a>
-            <a href="#" data-cursor>
-              → Are.na
-            </a>
-            <a href="#" data-cursor>
+            <a href="https://www.linkedin.com/in/adrian-perce-a5069334a/" target="_blank" rel="noopener noreferrer" data-cursor>
               → LinkedIn
             </a>
-            <a href="#" data-cursor>
-              → Reading List
+            <a href="https://www.instagram.com/adriiyan_p/?hl=en" target="_blank" rel="noopener noreferrer" data-cursor>
+              → Instagram
             </a>
           </div>
         </div>
@@ -57,7 +54,7 @@ export default function HomePage() {
 
       <footer>
         <div className="container" style={{ display: 'flex', justifyContent: 'space-between', width: '100%' }}>
-          <span>© 2026 Alex Reyes</span>
+          <span>© 2026 Adrian Perce</span>
           <span>Built with care, index-first</span>
         </div>
       </footer>

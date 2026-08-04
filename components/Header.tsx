@@ -15,7 +15,7 @@ export const Header: React.FC = () => {
         style={{ background: 'none', border: 'none', color: 'inherit', padding: 0, cursor: 'pointer' }}
         data-cursor
       >
-        AR—
+        AP—
       </button>
 
       <div style={{ display: 'flex', alignItems: 'center', gap: '20px' }}>

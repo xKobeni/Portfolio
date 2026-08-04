@@ -138,6 +138,14 @@ img {
   }
 }
 
+body.menu-open .cursor-dot {
+  background: var(--dark-text);
+}
+
+body.menu-open .cursor-ring {
+  border-color: var(--dark-text);
+}
+
 @media (pointer: fine) {
   body, a, button {
     cursor: none;
@@ -452,6 +460,11 @@ header {
 }
 
 .stagger.in-view > * {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.reveal.in-view .stagger > * {
   opacity: 1;
   transform: translateY(0);
 }

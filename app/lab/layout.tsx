@@ -2,11 +2,11 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Lab',
-  description: 'Explorations, experiments, motion tests, and interactive prototypes by Alex Reyes.',
+  description: 'Research and development — AI experiments, tools, games, and developer utilities by Adrian Perce.',
   openGraph: {
-    title: 'Lab — Alex Reyes',
-    description: 'Explorations, experiments, motion tests, and interactive prototypes.',
-    images: [{ url: '/og/lab.svg', width: 1200, height: 630, alt: 'Lab — Alex Reyes' }],
+    title: 'R&D — Adrian Perce',
+    description: 'AI experiments, tools, games, and developer utilities.',
+    images: [{ url: '/og/lab.svg', width: 1200, height: 630, alt: 'R&D — Adrian Perce' }],
   },
 };
 

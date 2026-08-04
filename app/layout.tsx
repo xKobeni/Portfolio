@@ -29,38 +29,38 @@ const ibmMono = IBM_Plex_Mono({
   display: 'swap',
 });
 
-const baseUrl = 'https://alexreyes.design';
+const baseUrl = 'https://adrianperce.dev';
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: 'Alex Reyes — Visual & Interaction Design',
-    template: '%s — Alex Reyes',
+    default: 'Adrian Perce • Portfolio',
+    template: '%s — Adrian Perce',
   },
   description:
-    'Visual and interaction designer who spends more time deciding how something should move than how it should look. Based in Manila, PH.',
+    'Fullstack developer and freelancer building things from the database to the browser. Based in Batangas, PH.',
   openGraph: {
     type: 'website',
     locale: 'en_US',
     url: baseUrl,
-    siteName: 'Alex Reyes',
-    title: 'Alex Reyes — Visual & Interaction Design',
+    siteName: 'Adrian Perce',
+    title: 'Adrian Perce • Portfolio',
     description:
-      'Visual and interaction designer who spends more time deciding how something should move than how it should look.',
+      'Fullstack developer and freelancer building things from the database to the browser.',
     images: [
       {
         url: '/og/default.svg',
         width: 1200,
         height: 630,
-        alt: 'Alex Reyes — Visual & Interaction Design',
+        alt: 'Adrian Perce • Portfolio',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Alex Reyes — Visual & Interaction Design',
+    title: 'Adrian Perce • Portfolio',
     description:
-      'Visual and interaction designer who spends more time deciding how something should move than how it should look.',
+      'Fullstack developer and freelancer building things from the database to the browser.',
     images: ['/og/default.svg'],
   },
 };

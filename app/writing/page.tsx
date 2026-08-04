@@ -2,40 +2,11 @@
 
 import React from 'react';
 import { usePageTransition } from '@/components/PageTransitionContext';
-
-const POSTS = [
-  {
-    index: '01',
-    title: 'The Frame Between Two States',
-    desc: 'Why the transition matters more than either screen on either side of it.',
-    date: 'Mar 2026',
-    tag: 'Interaction',
-  },
-  {
-    index: '02',
-    title: 'Motion as Hierarchy',
-    desc: 'Using timing and easing to tell people what to look at first.',
-    date: 'Jan 2026',
-    tag: 'Motion',
-  },
-  {
-    index: '03',
-    title: 'Building a Brand That Survives Being Built',
-    desc: 'How to design identity systems that don\'t fall apart the moment a developer touches them.',
-    date: 'Nov 2025',
-    tag: 'Brand',
-  },
-  {
-    index: '04',
-    title: 'Grain, Texture, and the Digital Surface',
-    desc: 'Why a little noise makes screens feel less like screens.',
-    date: 'Sep 2025',
-    tag: 'Visual',
-  },
-];
+import { getAllPosts } from '@/lib/posts';
 
 export default function WritingPage() {
   const { navigate } = usePageTransition();
+  const posts = getAllPosts();
 
   return (
     <div className="view active" id="view-writing">
@@ -56,7 +27,7 @@ export default function WritingPage() {
             style={{ marginTop: '0', fontSize: 'clamp(44px, 7vw, 90px)' }}
           >
             Notes on<br />
-            <em style={{ color: 'var(--accent)', fontStyle: 'italic' }}>design &amp; process</em>
+            <em style={{ color: 'var(--accent)', fontStyle: 'italic' }}>development &amp; process</em>
           </h1>
           <p
             style={{
@@ -67,13 +38,13 @@ export default function WritingPage() {
               lineHeight: '1.7',
             }}
           >
-            Occasional writing about interaction, motion, brand systems, and the
-            decisions that happen between the brief and the shipped thing.
+            Occasional writing about development, AI, and the decisions that
+            happen between the idea and the shipped thing.
           </p>
         </div>
 
         <div className="work-list stagger reveal" style={{ marginTop: '60px' }}>
-          {POSTS.map((post) => (
+          {posts.map((post) => (
             <div key={post.index} className="work-item reveal" data-cursor>
               <span className="work-index">{post.index}</span>
               <span className="work-title">{post.title}</span>
@@ -97,7 +68,7 @@ export default function WritingPage() {
         </div>
 
         <footer>
-          <span>© 2026 Alex Reyes</span>
+          <span>© 2026 Adrian Perce</span>
           <span>Index 06</span>
         </footer>
       </div>

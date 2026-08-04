@@ -54,12 +54,12 @@ export const KineticHero: React.FC = () => {
       <div className="container">
         <div className="eyebrow">Index 01 — Introduction</div>
         <h1 className="hero-head" ref={heroHeadRef} id="heroHead">
-          Design that <em>behaves</em>
+          Code that <em>works</em>
           <br />
-          like the idea it&apos;s showing.
+          like the idea behind it.
         </h1>
         <p className="hero-sub">
-          I&apos;m Alex Reyes — a visual and interaction designer who spends more time deciding how something should move than how it should look. Selected work below.
+          I&apos;m Adrian Perce, a full-stack developer and freelancer turning ideas into clean, reliable web applications. Selected work below.
         </p>
         <div className="hero-scroll">
           <div className="line"></div>

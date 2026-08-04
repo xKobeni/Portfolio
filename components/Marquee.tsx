@@ -2,12 +2,12 @@ import React from 'react';
 
 export const Marquee: React.FC = () => {
   const items = [
-    'IDENTITY',
-    'INTERACTION',
-    'TYPE SYSTEMS',
-    'MOTION',
-    'PROTOTYPING',
-    'ART DIRECTION',
+    'FRONTEND',
+    'BACKEND',
+    'FULLSTACK',
+    'AI/ML',
+    'DATABASES',
+    'OPEN SOURCE',
   ];
 
   return (

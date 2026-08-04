@@ -2,11 +2,11 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Writing',
-  description: 'Writing on design, interaction, and the spaces between — by Alex Reyes.',
+  description: 'Writing on development, AI, and the spaces between — by Adrian Perce.',
   openGraph: {
-    title: 'Writing — Alex Reyes',
-    description: 'Writing on design, interaction, and the spaces between.',
-    images: [{ url: '/og/writing.svg', width: 1200, height: 630, alt: 'Writing — Alex Reyes' }],
+    title: 'Writing — Adrian Perce',
+    description: 'Writing on development, AI, and the spaces between.',
+    images: [{ url: '/og/writing.svg', width: 1200, height: 630, alt: 'Writing — Adrian Perce' }],
   },
 };
 
