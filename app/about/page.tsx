@@ -10,6 +10,7 @@ export default function AboutPage() {
   const backend = ['Node.js', 'PHP', 'Python', 'MongoDB', 'MySQL', 'PostgreSQL'];
   const tools = ['Git', 'Figma', 'Canva', 'Blender'];
   const gameDev = ['Unreal Engine', 'Godot Engine', 'Unity'];
+  const aiMl = ['Python', 'R', 'TensorFlow', 'PyTorch', 'scikit-learn', 'Keras', 'Prompt Engineering', 'NLP'];
 
   return (
     <div className="view active" id="view-about">
@@ -33,14 +34,14 @@ export default function AboutPage() {
               that <em>ships</em>.
             </h1>
             <p className="about-lede">
-              Fullstack developer and freelancer based in Batangas, Philippines. I build things from the database to the browser, and I ship them too.
+              I'm Adrian Perce, a Fullstack developer and freelancer based in Batangas, Philippines. I build things from the database to the browser, and I ship them too.
             </p>
           </div>
           <div className="about-portrait">
             <div
               className="art-panel"
               style={{
-                background: 'url(/about/portrait.svg) center/cover no-repeat',
+                background: 'url(/about/me.jpg) center/cover no-repeat',
               }}
             />
           </div>
@@ -50,7 +51,9 @@ export default function AboutPage() {
         <div className="about-copy">
           <div>
             <p>
-              I build things from the ground up: backend, frontend, and everything in between. I care about performance, usability, and creating products that <em> just works</em>.
+              When I'm not building client projects, you'll usually find me
+              experimenting with AI, learning new technologies, or creating
+              small interactive projects <em>just for fun</em>.
             </p>
             <p>
               My goal is simple: create applications that are fast, intuitive, and enjoyable to use.
@@ -122,9 +125,19 @@ export default function AboutPage() {
           </div>
         </div>
 
+        {/* AI & Machine Learning */}
+        <div className="reveal" style={{ marginTop: '48px' }}>
+          <div className="eyebrow">Index 03.4 — AI &amp; Machine Learning</div>
+          <div className="stagger" style={{ display: 'flex', flexWrap: 'wrap', gap: '12px', marginTop: '20px' }}>
+            {aiMl.map((skill, idx) => (
+              <span key={idx} className="skill-pill">{skill}</span>
+            ))}
+          </div>
+        </div>
+
         {/* Timeline */}
         <div className="timeline stagger reveal">
-          <div className="eyebrow">Index 03.4 — Experience</div>
+          <div className="eyebrow">Index 03.5 — Experience</div>
           <div className="timeline-item">
             <span className="t-year mono">Now</span>
             <span className="t-role">Freelance Fullstack Developer</span>

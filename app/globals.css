@@ -1103,10 +1103,14 @@ footer {
 
 .about-portrait {
   height: min(50vh, 440px);
-  border-radius: 4px;
+  border-radius: 16px;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+  box-shadow: 0 24px 48px rgba(0,0,0,0.18), 0 8px 16px rgba(0,0,0,0.10);
+}
+
+[data-theme="dark"] .about-portrait {
+  box-shadow: 0 24px 48px rgba(255,255,255,0.08), 0 8px 16px rgba(255,255,255,0.05);
 }
 
 .about-heading {
@@ -1570,6 +1574,29 @@ footer {
 
 .pw-checkbox input[type="checkbox"] {
   accent-color: var(--accent);
+}
+
+/* ---------- Scrollbar ---------- */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: color-mix(in srgb, var(--ink) 40%, transparent);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--ink);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: color-mix(in srgb, var(--ink) 40%, transparent) transparent;
 }
 
 @media (max-width: 600px) {
