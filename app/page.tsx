@@ -53,8 +53,15 @@ export default function HomePage() {
       </section>
 
       <footer>
-        <div className="container" style={{ display: 'flex', justifyContent: 'space-between', width: '100%' }}>
+        <div className="container" style={{ display: 'flex', justifyContent: 'space-between', width: '100%', alignItems: 'center' }}>
           <span>© 2026 Adrian Perce</span>
+          <button
+            className="back-top-link"
+            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+            data-cursor
+          >
+            ↑ Back to Top
+          </button>
           <span>Built with care, index-first</span>
         </div>
       </footer>

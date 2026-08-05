@@ -1,0 +1,42 @@
+[
+  {
+    "id": "particle-physics",
+    "index": "01",
+    "title": "Particle Physics",
+    "desc": "Click to spawn, drag to throw. Particles bounce, fade, and shift color with speed.",
+    "tag": "Interactive — Canvas",
+    "gradient": "linear-gradient(135deg, #3355FF, #12141A)"
+  },
+  {
+    "id": "maze-generator",
+    "index": "02",
+    "title": "Maze Generator",
+    "desc": "Recursive backtracking algorithm visualized step by step. Adjustable size and speed.",
+    "tag": "Algorithm — Canvas",
+    "gradient": "linear-gradient(135deg, #12141A, #8FA0FF)"
+  },
+  {
+    "id": "conway-game",
+    "index": "03",
+    "title": "Conway's Game of Life",
+    "desc": "Cellular automaton where cells live, die, and reproduce based on simple rules.",
+    "tag": "Simulation — Canvas",
+    "gradient": "linear-gradient(135deg, #22c55e, #12141A)"
+  },
+  {
+    "id": "typing-test",
+    "index": "04",
+    "title": "Typing Test",
+    "desc": "Measure your typing speed and accuracy across short, medium, and long texts.",
+    "tag": "Interactive — Utility",
+    "gradient": "linear-gradient(135deg, #D8DEFF, #3355FF)"
+  },
+  {
+    "id": "password-generator",
+    "index": "05",
+    "title": "Password Generator",
+    "desc": "Generate secure random passwords with customizable options.",
+    "tag": "Tool — Utility",
+    "gradient": "linear-gradient(135deg, #3355FF, #D8DEFF)"
+  }
+]

@@ -24,13 +24,20 @@ export const MenuOverlay: React.FC = () => {
           <button onClick={() => handleNav('/lab', 'R&D')} data-cursor>
             R&D
           </button>
-          <button onClick={() => handleNav('/writing', 'Writing')} data-cursor>
-            Writing
+          <button onClick={() => handleNav('/playground', 'Playground')} data-cursor>
+            Playground
           </button>
           <button onClick={() => handleNav('/', 'Index', 'contact')} data-cursor>
             Contact
           </button>
         </nav>
+        <button
+          className="menu-back-top"
+          onClick={() => handleNav('/', 'Index')}
+          data-cursor
+        >
+          ← Return Home
+        </button>
         <div className="menu-meta">
           <span>Batangas, PH — Remote</span>
           <span>Available for work</span>

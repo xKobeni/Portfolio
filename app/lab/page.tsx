@@ -104,9 +104,9 @@ export default function LabPage() {
         </div>
 
         <div className="teaser reveal" style={{ marginTop: '80px' }}>
-          <p>Want to see the process behind the finished work?</p>
-          <button className="back-link" data-cursor onClick={() => navigate('/writing', 'Writing')}>
-            READ THE WRITING →
+          <p>Want to play with some interactive demos?</p>
+          <button className="back-link" data-cursor onClick={() => navigate('/playground', 'Playground')}>
+            OPEN THE PLAYGROUND →
           </button>
         </div>
 
