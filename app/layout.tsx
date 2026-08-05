@@ -8,6 +8,7 @@ import { CustomCursor } from '@/components/CustomCursor';
 import { Header } from '@/components/Header';
 import { MenuOverlay } from '@/components/MenuOverlay';
 import { ScrollReveal } from '@/components/ScrollReveal';
+import { Analytics } from '@vercel/analytics/next';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -83,6 +84,7 @@ export default function RootLayout({
             <ScrollReveal>
               <main>{children}</main>
             </ScrollReveal>
+            <Analytics />
           </PageTransitionProvider>
         </ThemeProvider>
       </body>
