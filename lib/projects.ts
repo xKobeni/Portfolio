@@ -18,6 +18,8 @@ export interface ProjectItem {
   overview: string;
   approach: string[];
   outcome: string;
+  github?: string;
+  live?: string;
 }
 
 export const getAllProjects = (): ProjectItem[] => {

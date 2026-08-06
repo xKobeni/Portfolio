@@ -34,7 +34,7 @@ export default function AboutPage() {
               that <em>ships</em>.
             </h1>
             <p className="about-lede">
-              I'm Adrian Perce, a Fullstack developer and freelancer based in Batangas, Philippines. I build things from the database to the browser, and I ship them too.
+              I&apos;m Adrian Perce, a Fullstack developer and freelancer based in Batangas, Philippines. I build things from the database to the browser, and I ship them too.
             </p>
           </div>
           <div className="about-portrait">
@@ -51,7 +51,7 @@ export default function AboutPage() {
         <div className="about-copy">
           <div>
             <p>
-              When I'm not building client projects, you'll usually find me
+              When I&apos;m not building client projects, you&apos;ll usually find me
               experimenting with AI, learning new technologies, or creating
               small interactive projects <em>just for fun</em>.
             </p>

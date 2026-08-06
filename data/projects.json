@@ -1,5 +1,5 @@
 [
-    {
+  {
     "id": "aika",
     "index": "01",
     "title": "AIKA AI",
@@ -19,9 +19,11 @@
       "Built a modular multi-agent architecture supporting specialized agents for planning, research, writing, and task execution with automatic model routing, streaming responses, and native tool calling.",
       "Implemented long-term semantic memory using PostgreSQL and pgvector, together with local tools including file management, shell execution, web research, Git integration, planning, configuration management, and OS automation."
     ],
-    "outcome": "Currently under active development with 100+ automated tests covering memory, orchestration, streaming, tool use, safety systems, and multi-agent workflows. The project demonstrates advanced local AI engineering focused on privacy, extensibility, and intelligent desktop automation."
+    "outcome": "Currently under active development with 100+ automated tests covering memory, orchestration, streaming, tool use, safety systems, and multi-agent workflows. The project demonstrates advanced local AI engineering focused on privacy, extensibility, and intelligent desktop automation.",
+    "github": "https://github.com/xKobeni/AIKA-AI",
+    "live": ""
   },
-    {
+  {
     "id": "inventrack",
     "index": "02",
     "title": "InvenTrack",
@@ -41,7 +43,9 @@
       "Built a full-stack inventory management platform with real-time stock monitoring, procurement workflows, audit trails, reporting, and role-based access control.",
       "Integrated predictive and descriptive analytics to forecast inventory demand, identify usage trends, and support data-driven decision making for government operations."
     ],
-    "outcome": "Delivered a capstone-ready government information system that modernizes inventory management while applying analytics to improve operational planning."
+    "outcome": "Delivered a capstone-ready government information system that modernizes inventory management while applying analytics to improve operational planning.",
+    "github": "",
+    "live": ""
   },
   {
     "id": "everestiq",
@@ -63,7 +67,9 @@
       "Four separate models handle the four prediction tasks — peak difficulty, summit time, fatality risk, and overall expedition success — each trained independently on cleaned expedition and member datasets.",
       "A Flask dashboard exposes the models through simple prediction forms, with feature-importance and confusion-matrix visualizations surfaced alongside the results rather than buried in a notebook."
     ],
-    "outcome": "[Add real detail here — e.g. model accuracy, dataset size, or what you learned building four coordinated models]"
+    "outcome": "Delivered a multi-model ML pipeline trained on thousands of historical Himalayan expeditions, demonstrating how structured data and ensemble methods can turn raw records into actionable risk intelligence.",
+    "github": "https://github.com/xKobeni/EverestIQ",
+    "live": ""
   },
   {
     "id": "empowerpwd",
@@ -85,9 +91,11 @@
       "Developed separate portals for employers and PWD applicants, enabling job posting, profile management, application tracking, and recruitment workflows.",
       "Designed accessibility-first interfaces with responsive layouts and straightforward navigation to accommodate diverse users and encourage inclusive hiring."
     ],
-    "outcome": "Demonstrated how technology can promote equal employment opportunities while showcasing full-stack application development with accessibility considerations."
+    "outcome": "Demonstrated how technology can promote equal employment opportunities while showcasing full-stack application development with accessibility considerations.",
+    "github": "",
+    "live": ""
   },
-    {
+  {
     "id": "spartan-odyssey",
     "index": "05",
     "title": "Spartan Odyssey",
@@ -107,11 +115,13 @@
       "Designed progressively challenging SQL puzzles integrated into story-driven gameplay to reinforce database concepts through practice rather than memorization.",
       "Implemented gamification features including level progression, achievements, feedback systems, and adaptive learning challenges to improve engagement."
     ],
-    "outcome": "Showcased how game design principles can enhance programming education while demonstrating gameplay system development and educational software design."
+    "outcome": "Showcased how game design principles can enhance programming education while demonstrating gameplay system development and educational software design.",
+    "github": "https://github.com/tjmagpantay/Spartan-Odyssey-The-Programming-Realm",
+    "live": ""
   },
   {
     "id": "soundsprint",
-    "index": "05",
+    "index": "06",
     "title": "SoundSprint",
     "category": "Index 02.6 — Mobile / Game",
     "role": "Lead Developer",
@@ -126,14 +136,16 @@
     "stripImage": "/projects/soundsprint-cover.svg",
     "overview": "A quiz game where the questions are sounds, not text — built to explore Flutter's audio and animation handling outside of a typical CRUD app.",
     "approach": [
-      "[Add detail — how rounds/scoring work, sound library, difficulty tuning]",
-      "[Add a second point on cross-platform or performance considerations]"
+      "Designed a round-based quiz system with timed rounds, scoring based on response speed and accuracy, and a curated library of sound clips spanning music, nature, and ambient categories.",
+      "Built with Flutter's declarative widget tree and animation controllers to deliver smooth cross-platform performance with responsive touch controls and real-time feedback."
     ],
-    "outcome": "Picked up a small amount of organic traction on GitHub (3 stars) without any promotion."
+    "outcome": "Picked up a small amount of organic traction on GitHub (3 stars) without any promotion.",
+    "github": "https://github.com/xKobeni/SoundSprint",
+    "live": ""
   },
-    {
+  {
     "id": "aika-stream",
-    "index": "06",
+    "index": "07",
     "title": "Aika Stream",
     "category": "Index 02.7 — Web / Entertainment",
     "role": "Solo Developer",
@@ -151,6 +163,8 @@
       "Integrated TMDB APIs to provide searchable movies, TV shows, trending content, detailed information pages, and personalized watchlists.",
       "Designed a responsive cinematic interface inspired by modern streaming platforms, emphasizing large visuals, smooth transitions, and effortless navigation."
     ],
-    "outcome": "Created a polished entertainment discovery platform that demonstrates API integration, responsive UI design, and modern frontend development practices."
+    "outcome": "Created a polished entertainment discovery platform that demonstrates API integration, responsive UI design, and modern frontend development practices.",
+    "github": "",
+    "live": "https://aika-stream.vercel.app/"
   }
 ]

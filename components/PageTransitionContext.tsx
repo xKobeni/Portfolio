@@ -23,7 +23,7 @@ export const PageTransitionProvider = ({ children }: { children: React.ReactNode
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [veilActive, setVeilActive] = useState(false);
   const [label, setLabel] = useState('Loading');
-  const originRef = useRef<'bottom' | 'top'>('bottom');
+  const [origin, setOrigin] = useState<'bottom' | 'top'>('bottom');
   const pendingScrollIdRef = useRef<string | null>(null);
   const isNavigatingRef = useRef(false);
 
@@ -85,7 +85,7 @@ export const PageTransitionProvider = ({ children }: { children: React.ReactNode
     const menuCloseDelay = menuWasOpen ? 700 : 0;
 
     // Step 1: Cover screen with veil from bottom
-    originRef.current = 'bottom';
+    setOrigin('bottom');
     setTimeout(() => {
       setVeilActive(true);
     }, menuCloseDelay);
@@ -116,7 +116,7 @@ export const PageTransitionProvider = ({ children }: { children: React.ReactNode
       }
 
       // Set origin to top so veil slides out UPWARDS
-      originRef.current = 'top';
+      setOrigin('top');
       requestAnimationFrame(() => {
         setVeilActive(false);
         isNavigatingRef.current = false;
@@ -132,7 +132,7 @@ export const PageTransitionProvider = ({ children }: { children: React.ReactNode
       <div
         className={`page-transition ${veilActive ? 'active' : ''}`}
         id="pageTransition"
-        style={{ transformOrigin: originRef.current }}
+        style={{ transformOrigin: origin }}
       >
         <span className="pt-label mono" id="pageTransitionLabel">
           {label}

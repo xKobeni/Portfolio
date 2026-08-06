@@ -58,7 +58,8 @@ export const ParticlePhysics: React.FC = () => {
     if (!ctx) return;
 
     const loop = () => {
-      ctx.fillStyle = 'var(--ink)';
+      const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+      ctx.fillStyle = isDark ? '#EFF1EC' : '#12141A';
       ctx.fillRect(0, 0, WIDTH, HEIGHT);
 
       const particles = particlesRef.current;

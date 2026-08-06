@@ -6,7 +6,9 @@
     "desc": "A Python voice assistant powered by ElevenLabs with tool calling for web search, notes, Spotify, YouTube, email, and desktop media controls.",
     "tag": "AI — Python",
     "year": "2026",
-    "gradient": "linear-gradient(135deg,#3355FF,#12141A)"
+    "gradient": "linear-gradient(135deg,#3355FF,#12141A)",
+    "github": "https://github.com/xKobeni/Simple-AI-Assistant",
+    "live": ""
   },
   {
     "id": "bahala-na-bot",
@@ -15,7 +17,9 @@
     "desc": "An AI decision-making assistant that helps users overcome indecision through guided suggestions and conversational reasoning.",
     "tag": "AI — Assistant",
     "year": "2026",
-    "gradient": "linear-gradient(135deg,#12141A,#6B6F68)"
+    "gradient": "linear-gradient(135deg,#12141A,#6B6F68)",
+    "github": "https://github.com/xKobeni/Bahala-na-Bot",
+    "live": "https://bahala-na-bot.vercel.app/"
   },
   {
     "id": "aika-ascend",
@@ -24,7 +28,9 @@
     "desc": "A gamified fitness companion featuring daily quests, achievements, activity tracking, and local-first progress management.",
     "tag": "Flutter — Fitness",
     "year": "2026",
-    "gradient": "linear-gradient(135deg,#6B6F68,#3355FF)"
+    "gradient": "linear-gradient(135deg,#6B6F68,#3355FF)",
+    "github": "https://github.com/xKobeni/Aika-Ascend",
+    "live": "https://aikaascend.vercel.app/"
   },
   {
     "id": "aika-prompta",
@@ -33,7 +39,9 @@
     "desc": "A minimalist platform where AI artists share, discover, and remix prompts alongside high-quality generated images and videos.",
     "tag": "Web — Creative AI",
     "year": "2026",
-    "gradient": "linear-gradient(135deg,#12141A,#8FA0FF)"
+    "gradient": "linear-gradient(135deg,#12141A,#8FA0FF)",
+    "github": "",
+    "live": "https://aika-prompta.vercel.app/"
   },
   {
     "id": "aika-apiverse",
@@ -42,7 +50,9 @@
     "desc": "A searchable directory for discovering, comparing, and testing free public APIs in seconds.",
     "tag": "Developer Tools",
     "year": "2026",
-    "gradient": "linear-gradient(135deg,#3355FF,#8FA0FF)"
+    "gradient": "linear-gradient(135deg,#3355FF,#8FA0FF)",
+    "github": "",
+    "live": "https://aika-api-verse.vercel.app/"
   },
   {
     "id": "aika-cinek",
@@ -51,7 +61,9 @@
     "desc": "A cinematic discovery platform for Korean dramas and films with watchlists and beautifully designed browsing experiences.",
     "tag": "Entertainment",
     "year": "2026",
-    "gradient": "linear-gradient(135deg,#12141A,#3355FF)"
+    "gradient": "linear-gradient(135deg,#12141A,#3355FF)",
+    "github": "",
+    "live": "https://github.com/xKobeni/Aika-CineK"
   },
   {
     "id": "aika-keys",
@@ -60,7 +72,9 @@
     "desc": "An interactive MIDI piano visualizer with synchronized sheet music, real-time feedback, and customizable sound presets.",
     "tag": "Music Tech",
     "year": "2026",
-    "gradient": "linear-gradient(135deg,#3355FF,#D8DEFF)"
+    "gradient": "linear-gradient(135deg,#3355FF,#D8DEFF)",
+    "github": "https://github.com/xKobeni/Aika-Keys",
+    "live": "https://aika-keys.vercel.app/"
   },
   {
     "id": "ukay-prototype",
@@ -69,7 +83,9 @@
     "desc": "A PSX-inspired first-person horror prototype built in Godot featuring memory resonance mechanics and modular level systems.",
     "tag": "Game Dev",
     "year": "2026",
-    "gradient": "linear-gradient(135deg,#12141A,#4A4A4A)"
+    "gradient": "linear-gradient(135deg,#12141A,#4A4A4A)",
+    "github": "",
+    "live": ""
   },
   {
     "id": "focus-blocker",
@@ -78,7 +94,9 @@
     "desc": "A Chrome extension that blocks distracting websites while synchronizing with an AI-powered productivity workflow.",
     "tag": "Chrome Extension",
     "year": "2025",
-    "gradient": "linear-gradient(135deg,#3355FF,#6C8DFF)"
+    "gradient": "linear-gradient(135deg,#3355FF,#6C8DFF)",
+    "github": "https://github.com/xKobeni/Focus-Blocker-Extension",
+    "live": ""
   },
   {
     "id": "job-acceptance-predictor",
@@ -87,7 +105,9 @@
     "desc": "A machine learning application that predicts hiring outcomes from candidate profiles and visualizes influential features.",
     "tag": "Machine Learning",
     "year": "2025",
-    "gradient": "linear-gradient(135deg,#3355FF,#12141A)"
+    "gradient": "linear-gradient(135deg,#3355FF,#12141A)",
+    "github": "https://github.com/xKobeni/Job-Acceptance-Prediction-System",
+    "live": ""
   },
   {
     "id": "nutrimate",
@@ -96,7 +116,9 @@
     "desc": "A Flask-powered meal planner that combines nutrition tracking with machine learning to generate personalized meal recommendations.",
     "tag": "ML — Health",
     "year": "2025",
-    "gradient": "linear-gradient(135deg,#6B6F68,#3355FF)"
+    "gradient": "linear-gradient(135deg,#6B6F68,#3355FF)",
+    "github": "https://github.com/xKobeni/NutriMate",
+    "live": ""
   },
   {
     "id": "ojt-tracker-lab",
@@ -105,6 +127,8 @@
     "desc": "A streamlined internship tracker for organizing applications, documenting daily progress, and monitoring OJT requirements.",
     "tag": "Next.js",
     "year": "2025",
-    "gradient": "linear-gradient(135deg,#D8DEFF,#3355FF)"
+    "gradient": "linear-gradient(135deg,#D8DEFF,#3355FF)",
+    "github": "https://github.com/xKobeni/OJT-Internship-Tracker",
+    "live": "https://ojt-internship-tracker.vercel.app/"
   }
 ]

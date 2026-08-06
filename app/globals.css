@@ -661,6 +661,7 @@ body.menu-open .marquee-track {
   padding: 34px 0;
   border-top: 1px solid var(--surface);
   position: relative;
+  cursor: pointer;
 }
 
 .work-list .work-item:last-child {
@@ -881,6 +882,26 @@ footer {
   margin-top: 30px;
 }
 
+.project-links {
+  display: flex;
+  gap: 10px;
+}
+
+.project-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--ink);
+  font-family: var(--font-mono), monospace;
+  font-size: 12px;
+  letter-spacing: .06em;
+  transition: color .2s;
+}
+
+.project-link:hover {
+  color: var(--accent);
+}
+
 .project-meta {
   display: flex;
   gap: 52px;
@@ -1090,6 +1111,40 @@ footer {
   letter-spacing: .06em;
   text-transform: uppercase;
   color: var(--ink);
+}
+
+.experiment-links {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+  display: flex;
+  gap: 8px;
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity .3s var(--ease), transform .3s var(--ease);
+  z-index: 2;
+}
+
+.experiment-card:hover .experiment-links {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.experiment-link {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, .5);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  transition: background .2s;
+}
+
+.experiment-link:hover {
+  background: var(--accent);
 }
 
 /* ---------- About view ---------- */

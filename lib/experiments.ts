@@ -8,7 +8,8 @@ export interface ExperimentItem {
   tag: string;
   year: string;
   gradient: string;
-  link?: string;
+  github?: string;
+  live?: string;
 }
 
 export const getAllExperiments = (): ExperimentItem[] => {

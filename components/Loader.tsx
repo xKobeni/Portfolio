@@ -3,16 +3,20 @@
 import React, { useEffect, useState } from 'react';
 
 export const Loader: React.FC = () => {
-  const [count, setCount] = useState(0);
-  const [done, setDone] = useState(false);
+  const [count, setCount] = useState(() => {
+    if (typeof window === 'undefined') return 0;
+    return window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 100 : 0;
+  });
+  const [done, setDone] = useState(() => {
+    if (typeof window === 'undefined') return false;
+    return window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  });
   const [hidden, setHidden] = useState(false);
 
   useEffect(() => {
     const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
     if (reduceMotion) {
-      setCount(100);
-      setDone(true);
       setTimeout(() => setHidden(true), 1100);
       return;
     }
