@@ -6,9 +6,9 @@ import { usePageTransition } from '@/components/PageTransitionContext';
 export default function AboutPage() {
   const { navigate } = usePageTransition();
 
-  const frontend = ['HTML', 'CSS', 'JavaScript', 'Tailwind', 'jQuery', 'React', 'Next.js'];
-  const backend = ['Node.js', 'PHP', 'Python', 'MongoDB', 'MySQL', 'PostgreSQL'];
-  const tools = ['Git', 'Figma', 'Canva', 'Blender'];
+  const frontend = ['HTML', 'CSS', 'JavaScript', 'Tailwind', 'jQuery', 'React', 'Next.js', 'Flutter'];
+  const backend = ['Node.js', 'PHP', 'Python', 'C++', 'MongoDB', 'MySQL', 'PostgreSQL'];
+  const tools = ['Git', 'GitHub', 'Figma', 'Canva', 'Blender', 'Postman', 'AppScript'];
   const gameDev = ['Unreal Engine', 'Godot Engine', 'Unity'];
   const aiMl = ['Python', 'R', 'TensorFlow', 'PyTorch', 'scikit-learn', 'Keras', 'Prompt Engineering', 'NLP'];
 
@@ -78,7 +78,7 @@ export default function AboutPage() {
             </div>
             <div className="fact">
               <span className="fact-k">Resume</span>
-              <a href="/resume.pdf" download className="fact-v" data-cursor>
+              <a href="/about/Resume_Adrian Perce.pdf" download className="fact-v" data-cursor>
                 Download ↓
               </a>
             </div>
@@ -139,17 +139,17 @@ export default function AboutPage() {
         <div className="timeline stagger reveal">
           <div className="eyebrow">Index 03.5 — Experience</div>
           <div className="timeline-item">
-            <span className="t-year mono">Now</span>
+            <span className="t-year mono">Jun 2025 — Present</span>
             <span className="t-role">Freelance Fullstack Developer</span>
             <span className="t-desc">
-              Building web apps, tools, and interfaces for clients across different industries.
+              Building and shipping full-stack web, mobile, and desktop applications; from concept to deployment.
             </span>
           </div>
           <div className="timeline-item">
             <span className="t-year mono">Feb 2026 — May 2026</span>
             <span className="t-role">Software Developer Intern, City Government of Lipa</span>
             <span className="t-desc">
-              Contributed to internal systems and digital tools for local government operations.
+              Led the development of 4 government information systems, digitizing manual workflows and automating internal processes.
             </span>
           </div>
           <div className="timeline-item">
@@ -157,6 +157,36 @@ export default function AboutPage() {
             <span className="t-role">Web Developer Intern, Tech Executive Labs</span>
             <span className="t-desc">
               Developed and maintained web applications, working across frontend and backend.
+            </span>
+          </div>
+        </div>
+
+        {/* Education */}
+        <div className="reveal" style={{ marginTop: '90px' }}>
+          <div className="eyebrow">Index 03.6 — Education</div>
+          <div className="timeline stagger" style={{ marginTop: '20px' }}>
+            <div className="timeline-item">
+              <span className="t-year mono">Aug 2022 — Jul 2026</span>
+              <span className="t-role">BS in Information Technology, Major in Business Analytics</span>
+              <span className="t-desc">
+                Batangas State University TNEU — Lipa
+              </span>
+            </div>
+          </div>
+        </div>
+
+        {/* Certifications */}
+        <div className="reveal" style={{ marginTop: '48px' }}>
+          <div className="eyebrow">Index 03.7 — Certifications</div>
+          <div style={{ marginTop: '20px', display: 'flex', flexDirection: 'column', gap: '12px' }}>
+            <span style={{ fontSize: 14, color: 'var(--muted)' }}>
+              Google Project Management Professional Certificate
+            </span>
+            <span style={{ fontSize: 14, color: 'var(--muted)' }}>
+              Google Prompting Essentials Specialization
+            </span>
+            <span style={{ fontSize: 14, color: 'var(--muted)' }}>
+              Google AI Essentials Specialization
             </span>
           </div>
         </div>
